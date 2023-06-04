@@ -1,0 +1,35 @@
+.quiz h1 {
+    text-align: center;
+}
+
+.quiz section {
+    position: relative;
+    display: inline-block;
+    background-color: aliceblue;
+    width: 600px;
+    height: 300px;
+    left: 50%;
+    margin-left: -300px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+.quiz p {
+    font-size: 18pt;
+}
+
+.quiz img {
+    width: 300px;
+    height: 180px;
+}
+
+.quiz button {
+    font-size: 14pt;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+}

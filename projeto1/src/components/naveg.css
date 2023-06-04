@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 110px;
+    background-color: rgb(224, 212, 236);
+}
+
+header h1 {
+    padding-top: 25px;
+    color: rgb(86, 31, 138);
+}
+
+header img {
+    width: 70px;
+    padding-top: 10px;
+}
+
+header nav {
+    margin-right: 30px;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    font-size: 14pt;
+    padding-left: 20px;
+    padding-top: 35px;
+}
+
+header a {
+    text-decoration: none;
+    color:rgb(86, 31, 138);
+}

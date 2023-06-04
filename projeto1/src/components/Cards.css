@@ -1,0 +1,25 @@
+section {
+    position: relative;
+    display: flex;
+    color: black;
+    width: 830px;
+    left: 50%;
+    margin-left: -415px;
+}
+
+section figure {
+    background-color: rgb(224, 212, 236);
+    margin: 10px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+section figcaption {
+    padding-bottom: 10px;
+}
+
+section img {
+    width: 165px;
+    margin: 10px;
+    border-radius: 5px;
+}
