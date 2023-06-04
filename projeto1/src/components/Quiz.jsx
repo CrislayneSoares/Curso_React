@@ -8,27 +8,19 @@ function Quiz(urlImgQuiz){
     const alternativas = ["15/05/2014", "13/06/2013", "12/03/2012", "Bell", "Bomb", "Army"]
 
     const [pergunta, setPergunta] = useState(pergunatas[0])
+    const [escolha, setEscolha] = useState()
     
     function clicou(){
-        let c = 0
-        while(c = 0){
-            if (alternativas[0] == respostas[0]) {
-                setPergunta(pergunatas[1])
-                c = 1
-                break
-            }
-            if (alternativas[1] == respostas[0]) {
-                setPergunta(pergunatas[1])
-                c = 1
-                break
-            }
-            if (alternativas[2] == respostas[0]) {
-                setPergunta(pergunatas[1])
-                c = 1
-                break
-            }
-        }
         
+        if (alternativas[0] == respostas[0]) {
+            setPergunta(pergunatas[1])
+        }
+        if (alternativas[1] == respostas[0]) {
+            setPergunta(pergunatas[1])
+        }
+        if (alternativas[2] == respostas[0]) {
+            setPergunta(pergunatas[1])
+        }
     }
 
     return (
