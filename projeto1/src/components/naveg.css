@@ -13,6 +13,7 @@ header h1 {
 header img {
     width: 70px;
     padding-top: 10px;
+    margin-left: 10px;
 }
 
 header nav {
