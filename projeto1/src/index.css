@@ -5,7 +5,38 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-body {
+body,
+html {
+  min-width: 100vh;
+  height: 100%;
   background-color: rgb(86, 31, 138);
   color: whitesmoke;
+  text-align: center;
+}
+
+.sobre {
+  margin-top: 30px;
+}
+
+button {
+  font-size: 14pt;
+  background: linear-gradient(
+    90deg,
+    rgba(132, 53, 222, 1) 0%,
+    rgba(184, 84, 232, 1) 100%
+  );
+  border: none;
+  border-radius: 5px;
+  padding: 5px 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: linear-gradient(
+    90deg,
+    rgba(184, 84, 232, 1) 0%,
+    rgba(132, 53, 222, 1) 100%
+    
+  );
 }
